@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [theme, setTheme] = useState("night");
@@ -9,10 +10,16 @@ const Navbar = () => {
   const handleTheme = () => {
     if (theme === "night") {
       setTheme("acid");
-      document.querySelector("html").setAttribute("data-theme", "acid");
+      const htmlElement = document.querySelector("html") as HTMLElement | null
+      if(htmlElement){
+        htmlElement.setAttribute("data-theme", "acid");
+      }
     } else {
       setTheme("night");
-      document.querySelector("html").setAttribute("data-theme", "night");
+      const htmlElement = document.querySelector("html") as HTMLElement | null
+      if(htmlElement){
+        htmlElement.setAttribute("data-theme", "night");
+      }
     }
   };
 
@@ -25,11 +32,11 @@ const Navbar = () => {
       <nav className=" p-4">
         <div className="container mx-auto flex items-center justify-between">
           {/* Brand Name */}
-          <a className="text-2xl font-bold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
-              Sahad Daily
-            </span>
-          </a>
+          <Link className="text-2xl font-bold" href={'/'}>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
+                Sahad Daily
+              </span>
+          </Link>
 
           {/* Right-end items */}
           <div className="flex items-center space-x-4">

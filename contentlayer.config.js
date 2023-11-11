@@ -22,6 +22,10 @@ const computedFields = {
     filePathPattern: `blogs/**/*.mdx`,
     contentType: "mdx",
     fields: {
+      image: {
+        type: "string",
+        required: true
+      },
       title: {
         type: "string",
         required: true,

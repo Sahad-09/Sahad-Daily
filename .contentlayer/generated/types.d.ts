@@ -13,6 +13,7 @@ export type Doc = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Doc'
+  image: string
   title: string
   description?: string | undefined
   published: boolean

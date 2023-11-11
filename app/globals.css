@@ -13,3 +13,40 @@ body{
   overflow-x: hidden;
   min-height: 100vh;
 }
+
+/* Example CSS (can be in a separate CSS file or inline styles in your component) */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.pagination-link,
+.pagination-previous,
+.pagination-next {
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #4a5568;
+  background-color: #cbd5e0;
+  color: #2d3748;
+  cursor: pointer;
+}
+
+.pagination-link:hover,
+.pagination-previous:hover,
+.pagination-next:hover {
+  background-color: #a0aec0;
+}
+
+.pagination-link.active {
+  background-color: #0CA6E9; /* Updated to your active color */
+  color: #ffffff; /* Updated text color for active page */
+}
+
+.pagination-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
