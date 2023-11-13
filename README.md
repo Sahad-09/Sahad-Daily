@@ -71,11 +71,11 @@ The application will now be accessible at `http://localhost:3000/` in your web b
 
 ## Features
 
-- Responsive design for seamless viewing on desktops, tablets, and mobile devices.
-- Interactive components and animations to enhance user engagement.
-- Integration with external APIs for displaying gym class schedules, promotions, etc.
-- TypeScript for type checking and enhanced code maintainability.
-- BMI calculator.
+- Responsive Design: Ensure a seamless and visually pleasing experience for readers on various devices, including desktops, tablets, and mobile devices.
+- Engaging User Interface: Incorporate interactive components and subtle animations to enhance user engagement and create an enjoyable reading experience.
+- Content API Integration: Integrate with external APIs to fetch and display relevant mdx articles, providing users with up-to-date and diverse reading material.
+- Rich Content Presentation: Utilize HTML5 for structuring content, supporting multimedia elements like images, videos, and interactive media for a compelling and informative presentation.
+- TypeScript for Code Quality: Implement TypeScript for improved code maintainability, type checking, and catching potential errors during development, ensuring a robust and efficient codebase.
 
 ## Technologies Used
 
