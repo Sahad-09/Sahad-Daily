@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./public/Landing%20page.png"/>
+
+# Gym Landing Page - React and TypeScript
+
+This is a gym landing page built using React and TypeScript, aimed at showcasing the gym's services and attracting potential customers. It features a modern and responsive design, providing an excellent user experience across various devices.
+
+## Table of Contents
+
+- [Gym Landing Page - React and TypeScript](#gym-landing-page---react-and-typescript)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [Demo](#demo)
 
 ## Getting Started
 
-First, run the development server:
+To get a copy of this project up and running on your local machine, follow the installation instructions provided below.
+
+## Prerequisites
+
+Before proceeding with the installation, make sure you have the following prerequisites:
+
+- Node.js (v14.x.x or higher)
+- npm (v6.x.x or higher) or yarn (v1.x.x or higher)
+
+## Installation
+
+1. Clone the repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/gym-landing-page.git
+cd gym-landing-page
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the project dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Using npm:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm install
+```
 
-## Learn More
+Or using yarn:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To start the development server, run the following command:
 
-## Deploy on Vercel
+Using npm:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Or using yarn:
+
+```bash
+yarn start
+```
+
+The application will now be accessible at `http://localhost:3000/` in your web browser.
+
+## Features
+
+- Responsive design for seamless viewing on desktops, tablets, and mobile devices.
+- Interactive components and animations to enhance user engagement.
+- Integration with external APIs for displaying gym class schedules, promotions, etc.
+- TypeScript for type checking and enhanced code maintainability.
+- BMI calculator.
+
+## Technologies Used
+
+- React - JavaScript library for building user interfaces.
+- TypeScript - Superset of JavaScript that adds static typing to the language.
+- HTML5 - Markup language for structuring web pages.
+- TailwindCSS - CSS framework for designing web pages.
+- Vite - a frontend tool that is used for building fast and optimized web applications.
+
+## Contributing
+
+We welcome contributions from the community to improve this project further. To contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## Demo
+
+[View Demo](https://gym-nex.vercel.app/)

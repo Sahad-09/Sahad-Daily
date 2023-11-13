@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
-import "@/app/globals.css";
 
 const Paginate = ({ data }: any) => {
   const itemsPerPage = 5;

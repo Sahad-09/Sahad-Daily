@@ -1,31 +1,29 @@
-import { allDocs } from "contentlayer/generated"
-import { notFound } from "next/navigation"
-import { Mdx } from "./Mdx"
-import { log } from "console"
-
-
+import { allDocs } from "contentlayer/generated";
+import { notFound } from "next/navigation";
+import { Mdx } from "./Mdx";
 
 interface PageProps {
   params: {
-    slug: string
-  }
+    slug: string;
+  };
 }
 
+async function getDocFromParams(slug: string) {
+  const doc = allDocs.find((doc) => doc.slugAsParams === slug);
 
-async function getDocFromParams(slug: string){
-  console.log(slug)
-    const doc = allDocs.find((doc) => doc.slugAsParams === slug)
-    
-    if (!doc) notFound()
-    
-    return doc
-  }
-  
-  const page = async ({params} : PageProps)=>{
-    const doc = await getDocFromParams(params.slug)
-    console.log(doc)
+  if (!doc) notFound();
 
-    return <div><Mdx code={doc.body.code} /></div>
+  return doc;
 }
 
-export default page
+const page = async ({ params }: PageProps) => {
+  const doc = await getDocFromParams(params.slug);
+
+  return (
+    <div>
+      <Mdx code={doc.body.code} />
+    </div>
+  );
+};
+
+export default page;

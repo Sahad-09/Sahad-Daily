@@ -1,8 +1,14 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
-module.exports = {
+
+  module.exports = {
     images: {
-      domains: ['picsum.photos'],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'picsum.photos',
+          pathname: '**',
+        },
+      ],
     },
-    // other configurations can go here
-  };
+  }
