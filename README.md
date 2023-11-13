@@ -12,6 +12,7 @@ Introducing a Next.js-powered article/blog platform designed for a captivating a
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
 
@@ -59,8 +60,6 @@ yarn dev
 
 The application will now be accessible at `http://localhost:3000/` in your web browser.
 
-<<<<<<< HEAD
-=======
 ## Features
 
 - Responsive Design: Ensure a seamless and visually pleasing experience for readers on various devices, including desktops, tablets, and mobile devices.
@@ -69,7 +68,6 @@ The application will now be accessible at `http://localhost:3000/` in your web b
 - Rich Content Presentation: Utilize HTML5 for structuring content, supporting multimedia elements like images, videos, and interactive media for a compelling and informative presentation.
 - TypeScript for Code Quality: Implement TypeScript for improved code maintainability, type checking, and catching potential errors during development, ensuring a robust and efficient codebase.
 
->>>>>>> dbb1e7ec33a622be73bccf04277d0494a3805d1e
 ## Technologies Used
 
 - Next.js - React-based web framework that enables functionality such as server-side rendering, automatic code splitting, and simplified routing, making it easier to build scalable and performant web applications.
