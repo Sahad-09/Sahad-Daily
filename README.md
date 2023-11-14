@@ -1,4 +1,4 @@
-<img src="https://pbs.twimg.com/media/F-5IQp8W0AE7j1d?format=jpg&name=small"/>
+<p align="center"><a href="#"><img width="auto" margin-left="50%" height="500px" src="https://pbs.twimg.com/media/F-5IQp8W0AE7j1d?format=jpg&name=large" height="175px"/></a></p>
 
 # Article/Blog Page - Next and TypeScript
 
