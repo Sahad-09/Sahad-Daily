@@ -1,4 +1,4 @@
-<img src="./public/Landing%20page.png"/>
+<img src="https://pbs.twimg.com/media/F-5IQp8W0AE7j1d?format=jpg&name=small"/>
 
 # Article/Blog Page - Next and TypeScript
 
